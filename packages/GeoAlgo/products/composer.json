@@ -1,0 +1,21 @@
+{
+    "name": "geoalgo/products",
+    "description": "This will be add, update and delete the product with category",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rashid husain",
+            "email": "rashid@geoalgo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yajra/laravel-datatables-oracle": "9999999-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeoAlgo\\Products\\": "src/"
+        }
+    }
+}

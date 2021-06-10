@@ -1,0 +1,22 @@
+   ::-webkit-scrollbar{
+        height: 2px;
+        width: 4px;
+        background: var(--l-yellow)!important;
+    }
+    ::-webkit-scrollbar-thumb:horizontal{
+        background: var(--yellow)!important;
+        border-radius: 0px;
+    }
+    ::-webkit-scrollbar-thumb:vertical{
+        background: var(--yellow)!important;
+        border-radius: 0px;
+    }
+@-webkit-keyframes scroll {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-65%); }
+}
+@keyframes scroll {
+    0% { transform: translatex(0); }
+    100% { transform: translatex(-65%); }
+}
+::-webkit-overflow-scrolling: auto !important;
